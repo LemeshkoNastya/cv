@@ -1,16 +1,6 @@
-/* HEADER */
-
-.figure-header {
-    position: relative;
-}
-
-.photo {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 1018px;
-    top: 91px;
-    border-radius: 300px;
+html {
+    overflow-x: hidden;
+    background-color:#ffffff;
 }
 
 h1 {
@@ -26,6 +16,53 @@ h1 {
     align-items: flex-end;
     text-align: center;
 }
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: flex-end;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* HEADER */
+
+.figure-header {
+    position: relative;
+    margin: -10px;
+}
+
+.photo {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 967px;
+    top: 91px;
+    border-radius: 300px;
+}
+
 .first-name {
     left: 160px;
     top: 233px;
@@ -37,16 +74,6 @@ h1 {
 }
 
 /* CONTACT */
-
-p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: flex-end;
-}
 
 .contact {
     position: absolute;
@@ -88,16 +115,6 @@ p {
 
 /* ABOUT ME */
 
-h2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 47px;
-    display: flex;
-    align-items: flex-end;
-}
-
 .about {
     position: absolute;
     width: 1171px;
@@ -124,7 +141,7 @@ h2 {
     top: 1201px;
 }
 
-.html {
+.html-name {
     top: 77px;
 }
 
@@ -221,16 +238,6 @@ h2 {
     height: 507px;
     left: 160px;
     top: 1737px;
-}
-
-h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: flex-end;
 }
 
 /* EXPERIENCE */
